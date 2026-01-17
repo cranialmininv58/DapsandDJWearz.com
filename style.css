@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1aff00;
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #1aff00;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    letter-spacing: 6px;
+}
+
+.tagline {
+    margin-top: 15px;
+    letter-spacing: 4px;
+    color: #1aff00;
+}
+
+.cta {
+    margin-top: 40px;
+    padding: 15px 40px;
+    background: transparent;
+    border: 1px solid #1aff00;
+    color: #1aff00;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #1aff00;
+    color: #000;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 40px;
+}
+
+.feature-card {
+    width: 260px;
+    padding: 30px;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+.feature-card h3 {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.neon-border {
+    border: 1px solid #1aff00;
+    box-shadow: 0 0 15px #1aff00;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #111;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.8rem;
+}
+
+.neon-text {
+    color: #1aff00;
+    margin-top: 5px;
+}
+/* FOUNDERS */
+.founders {
+    padding: 100px 40px;
+    text-align: center;
+    background: #000;
+}
+
+.founders h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 6px;
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+}
+
+.founder-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.founder-card {
+    width: 260px;
+}
+
+.founder-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border: 1px solid #1aff00;
+    filter: grayscale(100%);
+    transition: 0.4s ease;
+}
+
+.founder-card img:hover {
+    filter: grayscale(0%);
+    box-shadow: 0 0 25px #1aff00;
+}
+
+.founder-card h3 {
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.founder-card p {
+    margin-top: 8px;
+    color: #1aff00;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
